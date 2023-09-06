@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+
+#nullable disable
+
+namespace Connection.Models
+{
+    public partial class ParcelRepair02
+    {
+        public int Id { get; set; }
+        public string Nama { get; set; }
+        public string NamaKode { get; set; }
+        public string Keterangan { get; set; }
+        public int Sn { get; set; }
+        public bool Disable { get; set; }
+        public decimal? SizeMin { get; set; }
+        public decimal? SizeMax { get; set; }
+        public bool? Rapaport { get; set; }
+    }
+}
